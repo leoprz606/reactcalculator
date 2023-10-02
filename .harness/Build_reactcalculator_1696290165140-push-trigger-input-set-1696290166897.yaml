@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_reactcalculator_1696290165140-push-trigger-input-set
+  identifier: Build_reactcalculator_1696290165140pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Training
+  pipeline:
+    identifier: Build_reactcalculator_1696290165140
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
