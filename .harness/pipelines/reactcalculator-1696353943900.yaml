@@ -8,7 +8,7 @@ pipeline:
       codebase:
         build: <+input>
         connectorRef: account.oauth
-        repoName: reactcalculator
+        repoName: leoprz606/reactcalculator
   stages:
     - stage:
         identifier: build
