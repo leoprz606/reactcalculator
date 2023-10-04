@@ -25,6 +25,8 @@ pipeline:
                     shell: Sh
                     command: |-
                       echo "Welcome to Harness CI"
+                      ip address
+                      hostname
                       node --version
                       npm install
                       npm run build --if-present
